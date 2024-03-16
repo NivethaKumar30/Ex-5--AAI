@@ -14,7 +14,6 @@ Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
 <H3>Program:</H3>
 ```
-
 import numpy as np
 
 class KalmanFilter:
@@ -66,7 +65,7 @@ plt.plot([s[0] for s in est_states], label='estimate')
 plt.legend()
 plt.show()
 ```
-
+```
 
 <H3>Output:</H3>
 
