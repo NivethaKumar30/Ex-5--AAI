@@ -71,6 +71,7 @@ plt.legend()
 plt.show()
 
 ```
+```
 <H3>Output:</H3>
 
 ![image](https://github.com/NivethaKumar30/Ex-5--AAI/assets/119559844/f8bdb057-5f6a-4969-aeaa-b2cb000a8657)
