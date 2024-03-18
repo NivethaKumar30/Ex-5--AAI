@@ -12,11 +12,10 @@ Step 3: For each measurement, predict the next state using kf.predict().<BR>
 Step 4: Update the state estimate based on the measurement using kf.update().<BR>
 Step 5: Store the estimated state in a list.<BR>
 Step 6: Plot the true and estimated positions.<BR>
-<H3>Program:</H3>
+PROGRAM
+
+
 ```
-
-#Kalman Filter Constructor
-
 class KalmanFilter:
   def __init__(self,F,H,Q,R,x0,p0):
     self.F= F
@@ -71,7 +70,7 @@ plt.legend()
 plt.show()
 
 ```
-```
+
 <H3>Output:</H3>
 
 ![image](https://github.com/NivethaKumar30/Ex-5--AAI/assets/119559844/f8bdb057-5f6a-4969-aeaa-b2cb000a8657)
